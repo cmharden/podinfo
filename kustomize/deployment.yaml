@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: 11df-2607-fb90-3417-ee8-feac-c510-148c-ab3.ngrok.io:5000/podinfo:6.0.0
+        image: localhost:5000/podinfo:6.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
